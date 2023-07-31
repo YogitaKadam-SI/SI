@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>IPL Points Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="table">
+        <section class="table_header">
+            <img src="ipl_bg.jpg">
+            <h1>IPL 2020 POINTS TABLE</h1>
+
+        </section>
+        <section class="table_body">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Team</th>
+                        <th>Played</th>
+                        <th>Won</th>
+                        <th>Lost</th>
+                        <th>NetRR</th>
+                        <th>Points</th>
+                    </tr>
+                </thead>
+                <tbody id="myTable">
+
+                </tbody>
+            </table>
+
+        </section>
+    </main>
+
+    <script>
+        var myArray = [
+            {
+                "position": 1,
+                "name": "Mumbai Indians",
+                "url": "https://www.mumbaiindians.com/",
+                "logo": "mumbai.jpg",
+                "matches_played": 10,
+                "wins": 7,
+                "losses": 3,
+                "net_run_rate": "+1.448",
+                "points": 14,
+                "status": "won"
+            },
+            {
+                "position": 2,
+                "name": "Chennai Super Kings",
+                "url": "https://www.chennaisuperkings.com/",
+                "logo": "csk.jpg",
+                "matches_played": 10,
+                "wins": 7,
+                "losses": 2,
+                "net_run_rate": "+1.448",
+                "points": 14
+            },
+            {
+                "position": 3,
+                "name": "Delhi Capitals",
+                "url": "https://www.delhicapitals.in/",
+                "logo": "dc.jpg",
+                "matches_played": 10,
+                "wins": 7,
+                "losses": 4,
+                "net_run_rate": "0.774",
+                "points": 14
+            },
+            {
+                "position": 4,
+                "name": "Kolkata Knight Riders",
+                "url": "https://www.kkr.in/",
+                "logo": "kkr.jpg",
+                "matches_played": 10,
+                "wins": 7,
+                "losses": 5,
+                "net_run_rate": "+0.12",
+                "points": 10
+            },
+            {
+                "position": 5,
+                "name": "Royal Challengers Bangalore",
+                "url": "https://www.royalchallengers.com/",
+                "logo": "RCB.jpg",
+                "matches_played": 10,
+                "wins": 7,
+                "losses": 3,
+                "net_run_rate": "+0.182",
+                "points": 10
+            },
+            {
+                "position": 6,
+                "name": "Sunrisers Hyderabad",
+                "url": "https://www.sunrisershyderabad.in/",
+                "logo": "Srh.jpg",
+                "matches_played": 10,
+                "wins": 4,
+                "losses": 6,
+                "net_run_rate": "-0.620",
+                "points": 8
+            },
+            {
+                "position": 7,
+                "name": "Punjab Kings",
+                "url": "https://www.punjabkingsipl.in/",
+                "logo": "kings11.jpg",
+                "matches_played": 10,
+                "wins": 7,
+                "losses": 3,
+                "net_run_rate": "+1.448",
+                "points": 14
+            },
+            {
+                "position": 8,
+                "name": "Rajasthan Royals",
+                "url": "https://www.rajasthanroyals.com/",
+                "logo": "rr1.jpg",
+                "matches_played": 11,
+                "wins": 8,
+                "losses": 3,
+                "net_run_rate": "-0.733",
+                "points": 6
+            }
+        ]
+
+        buildTable(myArray)
+        function buildTable(data) {
+            var table = document.getElementById('myTable')
+
+            for (var i = 0; i < data.length; i++) {
+                var row = <tr>
+                    <td> ${data[i].position}</td>
+                    <td> ${data[i].name}</td>
+                    <td> ${data[i].url}</td>
+                    <td> ${data[i].logo}</td>
+                    <td> ${data[i].matches_played}</td>
+                    <td> ${data[i].wins}</td>
+                    <td> ${data[i].losses}</td>
+                    <td> ${data[i].net_run_rate}</td>
+                    <td> ${data[i].points}</td>
+
+                </tr>
+                table.innerHTML += row
+
+            }
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+{
+    "table_data": [
+        {
+            "Rank": "1",
+            "Team": {
+                "Link": "https://www.mumbaiindians.com/",
+                "Logo": "mumbai.jpg",
+                "Name": "Mumbai Indians"
+            },
+            "Played": "10",
+            "Won": "7",
+            "Lost": "3",
+            "NetRR": "+1.448",
+            "Points": "14",
+            "Status": "won"
+        },
+        {
+            "Rank": "2",
+            "Team": {
+                "Link": "https://www.chennaisuperkings.com/",
+                "Logo": "csk.jpg",
+                "Name": "Chennai Super Kings"
+            },
+            "Played": "10",
+            "Won": "7",
+            "Lost": "2",
+            "NetRR": "+1.448",
+            "Points": "14"
+        },
+        {
+            "Rank": "3",
+            "Team": {
+                "Link": "https://www.delhicapitals.in/",
+                "Logo": "dc.jpg",
+                "Name": "Delhi Capitals"
+            },
+            "Played": "10",
+            "Won": "7",
+            "Lost": "4",
+            "NetRR": "0.774",
+            "Points": "14"
+        },
+        {
+            "Rank": "4",
+            "Team": {
+                "Link": "https://www.kkr.in/",
+                "Logo": "kkr.jpg",
+                "Name": "Kolkata Knight Riders"
+            },
+            "Played": "10",
+            "Won": "7",
+            "Lost": "5",
+            "NetRR": "+0.12",
+            "Points": "10"
+        },
+        {
+            "Rank": "5",
+            "Team": {
+                "Link": "https://www.royalchallengers.com/",
+                "Logo": "RCB.jpg",
+                "Name": "Royal Challengers Bangalore"
+            },
+            "Played": "10",
+            "Won": "7",
+            "Lost": "3",
+            "NetRR": "+0.182",
+            "Points": "10"
+        },
+        {
+            "Rank": "6",
+            "Team": {
+                "Link": "https://www.sunrisershyderabad.in/",
+                "Logo": "Srh.jpg",
+                "Name": "Sunrisers Hyderabad"
+            },
+            "Played": "10",
+            "Won": "4",
+            "Lost": "6",
+            "NetRR": "-0.620",
+            "Points": "8"
+        },
+        {
+            "Rank": "7",
+            "Team": {
+                "Link": "https://www.punjabkingsipl.in/",
+                "Logo": "kings11.jpg",
+                "Name": "Punjab Kings"
+            },
+            "Played": "10",
+            "Won": "7",
+            "Lost": "3",
+            "NetRR": "+1.448",
+            "Points": "14"
+        },
+        {
+            "Rank": "8",
+            "Team": {
+                "Link": "https://www.rajasthanroyals.com/",
+                "Logo": "rr1.jpg",
+                "Name": "Rajasthan Royals"
+            },
+            "Played": "11",
+            "Won": "8",
+            "Lost": "3",
+            "NetRR": "-0.733",
+            "Points": "6"
+        }
+    ]
+}
